@@ -160,7 +160,7 @@
   .bar1.active {
     transform: rotate(45deg);
     position: relative;
-    top: 15.5px;
+    top: 11px;
   }
 
   .bar2.active {
@@ -174,7 +174,7 @@
   .bar4.active {
     transform: rotate(-45deg);
     position: relative;
-    bottom: 15.5px;
+    bottom: 9.5px;
   }
 
   .nav_las button {
@@ -427,7 +427,7 @@ header {
 
   .skillgrid h3 {
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     text-align: left;
     color: #282938;
@@ -435,8 +435,8 @@ header {
 
   .skillgrid p {
     font-family: "Roboto", sans-serif;
-    font-size: 10px;
-    line-height: 13px;
+    font-size: 6px;
+    line-height: 8px;
     font-weight: 400;
     text-align: left;
     color: #1c1e53;
