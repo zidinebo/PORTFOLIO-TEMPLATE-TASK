@@ -1062,7 +1062,7 @@ header {
     border: 1.53px solid #282938;
     opacity: 0.4;
     /* border: 1px solid blue; */
-    width: 350px;
+    width: 300px;
   }
 
   .cf_textarea textarea::placeholder {
@@ -1097,7 +1097,7 @@ header {
   }
 
   .submit button {
-    width: 350px;
+    width: 300px;
   }
 }
 
