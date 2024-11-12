@@ -22,7 +22,7 @@ const Footer = () => {
             <Link to="about">About me</Link>
             <Link to="contact">Contact</Link>
             <Link to="testimonials">Testimonials</Link>
-            <Link to="portfolio">Portfolio</Link>
+            {/* <Link to="portfolio">Portfolio</Link> */}
           </div>
 
           <div className="footlast">
