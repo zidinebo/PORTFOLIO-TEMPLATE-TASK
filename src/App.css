@@ -1472,7 +1472,7 @@ header {
   }
 
   .low_recent .extract {
-    width: 244.67px;
+    width: 205.67px;
     height: 150px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1480,8 +1480,7 @@ header {
 
   .low_recent {
     /* border: 1px solid red; */
-    width: 244.67px;
-    /* height: 200px; */
+    max-width: 800px;
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1489,10 +1488,12 @@ header {
   }
 
   .lowrd {
+    max-width: 206px;
     border: none;
     box-shadow: 6px 6px 6px 0 #c5c3c3;
     border-radius: 10px;
     opacity: 1.5;
+
     padding-bottom: 20px;
   }
 
@@ -1940,18 +1941,19 @@ header {
     font-family: "Roboto", sans-serif;
     font-size: 32.33px;
     font-weight: 500;
+    margin-top: 0;
   }
 
   .testi_lower {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    width: 850px;
+    gap: 18px;
+    width: 700px;
     /* border: 1px solid red; */
   }
 
   .testeachgrid {
-    width: 250px;
+    width: 230px;
     padding-top: 42.67px;
     gap: 32.67px;
     border-radius: 8px;
@@ -1961,22 +1963,26 @@ header {
   .starr {
     display: flex;
     gap: 5px;
-    width: 22.67px;
-    margin-left: 25px;
+    width: 20.67px;
+    margin-left: 18px;
+  }
+
+  .starr img {
+    width: 17px;
   }
 
   .testupp {
     font-family: "Roboto", sans-serif;
-    font-size: 12.8px;
+    font-size: 10.8px;
     font-weight: 400;
-    margin-left: 25px;
-    line-height: 20px;
+    margin-left: 18px;
+    line-height: 16px;
     text-align: start;
   }
 
   .testipro {
     display: flex;
-    margin-left: 25px;
+    margin-left: 18px;
     gap: 10.33px;
     align-items: center;
     text-align: center;
@@ -1984,13 +1990,13 @@ header {
   }
 
   .testipro img {
-    width: 44.67px;
-    height: 54.67px;
+    width: 38.67px;
+    height: 40.67px;
   }
 
   .testiname h4 {
     font-family: "Roboto", sans-serif;
-    font-size: 18.33px;
+    font-size: 15.33px;
     font-weight: 600;
     text-align: left;
     color: #282938;
@@ -2000,7 +2006,7 @@ header {
   .testiname p {
     margin: 0;
     font-family: "Roboto", sans-serif;
-    font-size: 15.33px;
+    font-size: 11.33px;
     font-weight: 400;
     text-align: left;
     color: #1c1e53;
@@ -2896,6 +2902,7 @@ header {
   }
 
   .footerup {
+    margin: 0 auto;
     max-width: 500px;
     width: 100%;
     display: flex;
@@ -2925,10 +2932,11 @@ header {
 
   hr {
     max-width: 500px;
-    margin: 15px 0;
+    margin: 15px auto;
   }
 
   .footerdown {
+    margin: 0 auto;
     /* border: 1px solid red; */
     max-width: 500px;
     width: 85%;
