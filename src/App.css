@@ -2952,7 +2952,7 @@ header {
 @media (max-width: 600px) {
   .footerking {
     margin: 0;
-    padding: 70px 15px;
+    padding: 50px 15px;
   }
 
   .footerup {
@@ -2969,14 +2969,14 @@ header {
     flex-direction: column;
     gap: 2px;
     font-family: "Roboto", sans-serif;
-    font-size: 10.33px;
+    font-size: 9.53px;
     font-weight: 400;
     color: #000000;
     cursor: pointer;
   }
 
   .footlast img {
-    width: 14px;
+    width: 13px;
     height: 18px;
     padding: 4px 1.33px;
     border-radius: 5.33px 0px 0px 0px;
@@ -2984,12 +2984,14 @@ header {
   }
 
   .footerdown {
+    max-width: 500px;
+    width: 100%;
     /* border: 1px solid red; */
     align-items: center;
     display: flex;
     justify-content: space-between;
     font-family: "Roboto", sans-serif;
-    font-size: 10.67px;
+    font-size: 9.67px;
     font-weight: 400;
   }
 
@@ -2997,7 +2999,7 @@ header {
     font-family: "Roboto", sans-serif;
     display: flex;
     gap: 10px;
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
@@ -3005,7 +3007,7 @@ header {
 @media (max-width: 399px) {
   .footerking {
     margin: 0;
-    padding: 70px 15px;
+    padding: 50px 15px;
   }
 
   .footerup {
@@ -3022,14 +3024,14 @@ header {
     flex-direction: column;
     gap: 2px;
     font-family: "Roboto", sans-serif;
-    font-size: 8.33px;
+    font-size: 6.8px;
     font-weight: 400;
     color: #000000;
     cursor: pointer;
   }
 
   .footlast img {
-    width: 12px;
+    width: 11.5px;
     height: 18px;
     padding: 4px 1.33px;
     border-radius: 5.33px 0px 0px 0px;
@@ -3037,12 +3039,14 @@ header {
   }
 
   .footerdown {
+    max-width: 320px;
+    width: 100%;
     /* border: 1px solid red; */
     align-items: center;
     display: flex;
     justify-content: space-between;
     font-family: "Roboto", sans-serif;
-    font-size: 8.67px;
+    font-size: 6.67px;
     font-weight: 400;
   }
 
@@ -3050,6 +3054,6 @@ header {
     font-family: "Roboto", sans-serif;
     display: flex;
     gap: 10px;
-    font-size: 8px;
+    font-size: 6px;
   }
 }
