@@ -317,12 +317,12 @@
     cursor: pointer;
     margin-right: 30px;
     /* border: 1px solid red; */
-    width: 40px;
+    width: 30px;
     margin: auto 50px;
   }
 
   .bar {
-    width: 50%;
+    width: 40%;
     height: 1px;
     background-color: black;
     padding: 1px 10px;
@@ -392,7 +392,7 @@
   }
 }
 
-/* ===============MINI PHONE */
+/* ===============MINI PHONE============= */
 @media (max-width: 399px) {
   .nav_bar {
     display: flex;
@@ -421,12 +421,12 @@
     cursor: pointer;
     margin-right: 30px;
     /* border: 1px solid red; */
-    width: 40px;
-    margin: auto 50px;
+    width: 30px;
+    margin: auto 40px;
   }
 
   .bar {
-    width: 50%;
+    width: 20%;
     height: 1px;
     background-color: black;
     padding: 1px 10px;
@@ -437,17 +437,18 @@
   .nav_inn {
     transform: scaleY(0);
     position: absolute;
-    background-color: #ffffff;
-    top: 40px;
+    background-color: #dcf1f9;
+    top: 35px;
     display: flex;
-    flex-direction: column;
-    gap: 22.67px;
+    /* flex-direction: column; */
+    gap: 5.67px;
     padding: 10px;
     width: 20%;
     left: 0;
     align-items: center;
     transition: 0.8s ease-in-out;
     transform-origin: top;
+    border-radius: 6px;
   }
 
   .nav_bar.active .nav_inn {
@@ -456,7 +457,7 @@
 
   .nav_inn a {
     font-family: "Roboto", sans-serif;
-    font-size: 16.33px;
+    font-size: 11px;
     font-weight: 400;
   }
 
@@ -475,7 +476,7 @@
   }
 
   .bar4.active {
-    transform: rotate(-45deg);
+    transform: rotate(-41deg);
     position: relative;
     bottom: 9.5px;
   }
@@ -488,8 +489,8 @@
     font-weight: 400;
     border: 1px solid #5e3bee;
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    width: 80px;
+    font-size: 11px;
+    width: 75px;
     padding: 8px 0px;
     border-radius: 7px;
     cursor: pointer;
@@ -728,6 +729,10 @@ header {
 /* =========== SMALL SCREEN ================ */
 @media (max-width: 399px) {
   header {
+    display: flex;
+
+    /* gap: 3px; */
+
     padding: 0px 10px;
     margin: 0;
     overflow: hidden;
@@ -749,11 +754,11 @@ header {
 
   .header_left h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 16.67px;
+    font-size: 12.67px;
     width: 200px;
     font-weight: 500;
-    line-height: 20.6px;
-    margin: 20px 0 0 0;
+    line-height: 18.6px;
+    margin: 10px 0 0 0;
   }
 
   .header_left p {
@@ -766,17 +771,17 @@ header {
   }
 
   .header_but {
-    width: 150px;
+    width: 120px;
     border-radius: 5.33px;
     text-align: start;
   }
 
   .header_but button {
-    width: 110px;
-    padding: 6px 0px;
+    width: 100px;
+    padding: 5px 0px;
     border-radius: 4px;
     border: 1px solid #5e3bee;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
     color: #ffffff;
     background-color: #5e3bee;
@@ -785,9 +790,9 @@ header {
 
   .img_one img {
     /* border: 1px solid red; */
-    width: 117.33px;
+    max-width: 81.6px;
     height: 229.74px;
-    margin-top: 60px;
+    margin-top: 30px;
   }
 }
 
@@ -1065,6 +1070,72 @@ header {
   }
 }
 
+/* ==========SKILL SMALL SCREEN========== */
+@media (max-width: 399px) {
+  .skills {
+    padding: 0 0;
+    margin: 40px 15px;
+    height: 520px;
+    overflow: hidden;
+  }
+
+  .skill_sec1 h5 {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16.33px;
+    font-weight: 500;
+    color: #282938;
+  }
+
+  .skill_sec1 h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #282938;
+    margin: 0;
+  }
+
+  .skill_sec2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin: 40px 0px 0 0px;
+  }
+
+  .skill_sec2 img {
+    width: 30.33px;
+    height: 30.33px;
+    display: flex;
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 7px;
+  }
+
+  .skillgrid {
+    background-color: #dcf1f9;
+    border-radius: 10.67px;
+    padding: 20px;
+    height: 120px;
+  }
+
+  .skillgrid h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    color: #282938;
+  }
+
+  .skillgrid p {
+    font-family: "Roboto", sans-serif;
+    font-size: 6px;
+    line-height: 8px;
+    font-weight: 400;
+    text-align: left;
+    color: #1c1e53;
+  }
+}
+
 /* ==============ABOUT ME============================ */
 .about_me {
   padding: 0 85.33px;
@@ -1197,7 +1268,7 @@ header {
 
   .aboutright p {
     font-family: "Roboto", sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 15px;
     color: #1c1e53;
@@ -1210,24 +1281,24 @@ header {
     padding: 0 15px;
     display: flex;
     margin: 0;
-    gap: 52px;
+    gap: 42px;
     overflow: hidden;
   }
 
   .about_me img {
-    width: 207.33px;
+    width: 140.33px;
     height: 225.74px;
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   .aboutright {
     text-align: start;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .aboutright h5 {
     font-family: "Roboto", sans-serif;
-    font-size: 18.33px;
+    font-size: 16.33px;
     font-weight: 500;
     margin: 0;
     color: #282938;
@@ -1236,16 +1307,16 @@ header {
   .aboutright h3 {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     color: #282938;
   }
 
   .aboutright p {
     font-family: "Roboto", sans-serif;
-    font-size: 8px;
+    font-size: 7px;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 12px;
     color: #1c1e53;
   }
 }
@@ -1256,7 +1327,7 @@ header {
     padding: 0 15px;
     display: flex;
     margin: 0;
-    gap: 52px;
+    gap: 28px;
     overflow: hidden;
   }
 
@@ -1282,14 +1353,14 @@ header {
   .aboutright h3 {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     color: #282938;
   }
 
   .aboutright p {
     font-family: "Roboto", sans-serif;
-    font-size: 8px;
+    font-size: 6px;
     font-weight: 400;
     line-height: 10px;
     color: #1c1e53;
@@ -1539,8 +1610,12 @@ header {
     gap: 3px;
   }
 
+  .gitlink img {
+    width: 24px;
+  }
+
   .gitlink p {
-    font-size: 14.33px;
+    font-size: 12.33px;
     font-weight: 400;
   }
 
@@ -1585,6 +1660,10 @@ header {
     margin: 15px 0 0 15px;
   }
 
+  .port_a {
+    width: 95px;
+  }
+
   .port_a p {
     font-size: 12px;
   }
@@ -1592,13 +1671,15 @@ header {
   .port_a img {
     width: 10px;
     height: 10px;
-    margin-top: 16px;
+    margin-top: 10px;
   }
 }
 
 /* ========RECENT PHONE SIZE========= */
 @media (max-width: 600px) {
   .recentPro {
+    max-width: 600;
+    /* width: 100%; */
     margin: 80px 15px 20px 15px;
     padding: 0px 0px;
   }
@@ -1613,7 +1694,7 @@ header {
   .up_recent h5 {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    font-size: 14.33px;
+    font-size: 13.33px;
     font-weight: 500;
     color: #282938;
     text-align: start;
@@ -1622,7 +1703,7 @@ header {
   .up_recent h3 {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 500px;
     color: #282938;
   }
@@ -1632,21 +1713,27 @@ header {
     gap: 3px;
   }
 
+  .gitlink img {
+    width: 24px;
+  }
+
   .gitlink p {
-    font-size: 12.33px;
+    font-size: 10.33px;
     font-weight: 400;
   }
 
   .low_recent .extract {
-    width: 344.67px;
+    max-width: 450px;
+    width: 280.67px;
     height: 200px;
+    margin: 0 auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
 
   .low_recent {
     /* border: 1px solid red; */
-    width: 244.67px;
+    width: 230.67px;
     height: 250px;
     margin: 20px 23px 0 23px;
     display: grid;
@@ -1661,7 +1748,7 @@ header {
     border-radius: 10px;
     opacity: 1.5;
     padding-bottom: 20px;
-    width: 244.67px;
+    width: 280.67px;
   }
 
   .lowrd h5 {
@@ -1680,14 +1767,18 @@ header {
     margin: 15px 0 0 15px;
   }
 
+  .port_a {
+    width: 106px;
+  }
+
   .port_a p {
     font-size: 14px;
   }
 
   .port_a img {
-    width: 12px;
-    height: 12px;
-    margin-top: 16px;
+    width: 10px;
+    height: 10px;
+    margin-top: 13.5px;
   }
 }
 
@@ -1708,7 +1799,7 @@ header {
   .up_recent h5 {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    font-size: 14.33px;
+    font-size: 12.33px;
     font-weight: 500;
     color: #282938;
     text-align: start;
@@ -1717,14 +1808,18 @@ header {
   .up_recent h3 {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500px;
     color: #282938;
   }
 
   .gitlink {
     padding: 0 5px;
-    gap: 3px;
+    gap: 2px;
+  }
+
+  .gitlink img {
+    max-width: 20px;
   }
 
   .gitlink p {
@@ -1733,7 +1828,7 @@ header {
   }
 
   .low_recent .extract {
-    width: 244.67px;
+    width: 200.67px;
     height: 200px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1741,7 +1836,7 @@ header {
 
   .low_recent {
     /* border: 1px solid red; */
-    width: 244.67px;
+    width: 200.67px;
     height: 250px;
     margin: 20px 23px 0 23px;
     display: grid;
@@ -1757,12 +1852,12 @@ header {
     border-radius: 10px;
     opacity: 1.5;
     padding-bottom: 20px;
-    width: 243.67px;
+    width: 200.67px;
   }
 
   .lowrd h5 {
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     text-align: left;
     margin: 15px 0 0 15px;
@@ -1770,20 +1865,24 @@ header {
 
   .plo {
     font-family: "Roboto", sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     text-align: left;
     margin: 15px 0 0 15px;
   }
 
+  .port_a {
+    width: 80px;
+  }
+
   .port_a p {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .port_a img {
-    width: 12px;
-    height: 12px;
-    margin-top: 16px;
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
   }
 }
 
@@ -2054,6 +2153,7 @@ header {
     /* border: 1px solid red; */
     padding: 0 auto;
     margin: 950px 0 0 0;
+    overflow: hidden;
   }
 
   .testi_upper h5 {
@@ -2065,6 +2165,7 @@ header {
     font-family: "Roboto", sans-serif;
     font-size: 30.33px;
     font-weight: 500;
+    margin: 2px 0 15px 0;
   }
 
   .testi_lower {
@@ -2075,8 +2176,8 @@ header {
 
   .testeachgrid {
     width: 250px;
-    margin: 0 55px;
-    padding-top: 42.67px;
+    margin: 0 46px;
+    padding-top: 30.67px;
     gap: 32.67px;
     border-radius: 8px;
     border: 1.33px solid #006b6a;
@@ -2085,22 +2186,22 @@ header {
   .starr {
     display: flex;
     gap: 4px;
-    width: 18.67px;
-    margin-left: 25px;
+    width: 16.67px;
+    margin-left: 20px;
   }
 
   .testupp {
     font-family: "Roboto", sans-serif;
-    font-size: 12.8px;
+    font-size: 10px;
     font-weight: 400;
-    margin-left: 25px;
-    line-height: 20px;
+    margin-left: 20px;
+    line-height: 14px;
     text-align: start;
   }
 
   .testipro {
     display: flex;
-    margin-left: 25px;
+    margin-left: 20px;
     gap: 10.33px;
     align-items: center;
     text-align: center;
@@ -2108,13 +2209,13 @@ header {
   }
 
   .testipro img {
-    width: 44.67px;
-    height: 54.67px;
+    width: 40.67px;
+    height: 50.67px;
   }
 
   .testiname h4 {
     font-family: "Roboto", sans-serif;
-    font-size: 18.33px;
+    font-size: 16.33px;
     font-weight: 600;
     text-align: left;
     color: #282938;
@@ -2124,7 +2225,7 @@ header {
   .testiname p {
     margin: 0;
     font-family: "Roboto", sans-serif;
-    font-size: 15.33px;
+    font-size: 12.33px;
     font-weight: 400;
     text-align: left;
     color: #1c1e53;
@@ -2134,34 +2235,35 @@ header {
 /* ==========SMALL SCREEN============== */
 @media (max-width: 399px) {
   .testimony {
-    width: 350px;
+    max-width: 350px;
     /* border: 1px solid red; */
     padding: 0 auto;
     margin: 950px 0 0 0;
   }
 
   .testi_upper h5 {
-    font-size: 15.33px;
+    font-size: 13.33px;
     font-weight: 500;
   }
 
   .testi_upper h2 {
     font-family: "Roboto", sans-serif;
-    font-size: 25.33px;
+    margin: 6px 0 15px 0;
+    font-size: 22.33px;
     font-weight: 500;
   }
 
   .testi_lower {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 25px;
   }
 
   .testeachgrid {
     width: 200px;
-    margin: 0 55px;
-    padding-top: 42.67px;
-    gap: 32.67px;
+    margin: 0 30px;
+    padding-top: 27.67px;
+    gap: 30.67px;
     border-radius: 8px;
     border: 1.33px solid #006b6a;
   }
@@ -2175,7 +2277,7 @@ header {
 
   .testupp {
     font-family: "Roboto", sans-serif;
-    font-size: 7px;
+    font-size: 7.5px;
     font-weight: 400;
     margin-left: 10px;
     line-height: 9px;
@@ -2192,13 +2294,13 @@ header {
   }
 
   .testipro img {
-    width: 40.67px;
-    height: 45.67px;
+    width: 38.67px;
+    height: 42.67px;
   }
 
   .testiname h4 {
     font-family: "Roboto", sans-serif;
-    font-size: 14.33px;
+    font-size: 12.33px;
     font-weight: 600;
     text-align: left;
     color: #282938;
@@ -2208,7 +2310,7 @@ header {
   .testiname p {
     margin: 0;
     font-family: "Roboto", sans-serif;
-    font-size: 10.33px;
+    font-size: 8.33px;
     font-weight: 400;
     text-align: left;
     color: #1c1e53;
@@ -2491,26 +2593,26 @@ header {
   .contactside {
     max-width: 400px;
     width: 100%;
-    margin: 80px 15px 30px 15px;
+    margin: 60px 15px 30px 15px;
     /* border: 1px solid red; */
     text-align: start;
     /* text-align: center; */
   }
 
   .cf_up h5 {
-    font-size: 18.33px;
+    font-size: 17.33px;
     font-weight: 500;
     text-align: start;
   }
 
   .cf_up h3 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 700;
     text-align: start;
   }
 
   .cf_up p {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 16px;
     text-align: start;
@@ -2536,7 +2638,7 @@ header {
   }
 
   .confirlas input {
-    width: 250px;
+    width: 230px;
     height: 20px;
     border-radius: 5px;
     border: 1.53px solid #282938;
@@ -2547,7 +2649,7 @@ header {
     text-align: start;
     margin-bottom: 7px;
     font-family: "Roboto", sans-serif;
-    font-size: 16.33px;
+    font-size: 14.33px;
     font-weight: 400;
     color: #282938;
   }
@@ -2562,7 +2664,7 @@ header {
     text-align: start;
     margin-bottom: 7px;
     font-family: "Roboto", sans-serif;
-    font-size: 16.33px;
+    font-size: 14.33px;
     font-weight: 400;
     color: #282938;
   }
@@ -2572,13 +2674,13 @@ header {
     border: 1.53px solid #282938;
     opacity: 0.4;
     /* border: 1px solid blue; */
-    width: 350px;
+    width: 300px;
   }
 
   .cf_textarea textarea::placeholder {
     font-family: "Roboto", sans-serif;
     padding-left: 10px;
-    font-size: 16.33px;
+    font-size: 12.33px;
     font-weight: 400;
     color: #505050;
     /* text-align: left; */
@@ -2593,7 +2695,7 @@ header {
   }
 
   .check label {
-    font-size: 14.67px;
+    font-size: 13.67px;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     color: #282938;
@@ -2607,7 +2709,7 @@ header {
   }
 
   .submit button {
-    width: 300px;
+    width: 260px;
   }
 }
 
@@ -2623,19 +2725,19 @@ header {
   }
 
   .cf_up h5 {
-    font-size: 18.33px;
+    font-size: 16.33px;
     font-weight: 500;
     text-align: start;
   }
 
   .cf_up h3 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     text-align: start;
   }
 
   .cf_up p {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 16px;
     text-align: start;
@@ -2644,7 +2746,7 @@ header {
   }
 
   .contactside .contact_form {
-    max-width: 600px;
+    max-width: 300px;
     margin: 0;
   }
 
@@ -2661,7 +2763,7 @@ header {
   }
 
   .confirlas input {
-    width: 250px;
+    width: 200px;
     height: 20px;
     border-radius: 5px;
     border: 1.53px solid #282938;
@@ -2672,7 +2774,7 @@ header {
     text-align: start;
     margin-bottom: 7px;
     font-family: "Roboto", sans-serif;
-    font-size: 16.33px;
+    font-size: 12.33px;
     font-weight: 400;
     color: #282938;
   }
@@ -2687,7 +2789,7 @@ header {
     text-align: start;
     margin-bottom: 7px;
     font-family: "Roboto", sans-serif;
-    font-size: 16.33px;
+    font-size: 12.33px;
     font-weight: 400;
     color: #282938;
   }
@@ -2697,13 +2799,13 @@ header {
     border: 1.53px solid #282938;
     opacity: 0.4;
     /* border: 1px solid blue; */
-    width: 280px;
+    width: 250px;
   }
 
   .cf_textarea textarea::placeholder {
     font-family: "Roboto", sans-serif;
     padding-left: 10px;
-    font-size: 14.33px;
+    font-size: 10.33px;
     font-weight: 400;
     color: #505050;
     /* text-align: left; */
@@ -2718,7 +2820,7 @@ header {
   }
 
   .check label {
-    font-size: 14.67px;
+    font-size: 12.67px;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     color: #282938;
@@ -2732,7 +2834,7 @@ header {
   }
 
   .submit button {
-    width: 280px;
+    width: 250px;
   }
 }
 
@@ -2872,10 +2974,15 @@ header {
     opacity: 0px;
   }
 
+  hr {
+    max-width: 500px;
+    margin: 15px 0;
+  }
+
   .footerdown {
     /* border: 1px solid red; */
-    max-width: 600px;
-    width: 100%;
+    max-width: 500px;
+    width: 85%;
     align-items: center;
     display: flex;
     justify-content: space-between;
